@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="/calculator.css">
 </head>
 <body>
-    <p>
+    <div class="Calculator">
+        <p>
         <button class="one" onclick="calculation+='1'; console.log(calculation);">1</button>
         <button class="two" onclick="calculation+='2'; console.log(calculation);">2</button>
         <button class="three" onclick="calculation+='3'; console.log(calculation);">3</button>
@@ -36,8 +37,9 @@
         <button class="divide" onclick="calculation+=' / '; console.log(calculation);">/</button>
 
     </p>
-        <button class="clear" onclick="calculation=0; console.log('Cleared');">Clear</button>
+        <button class="clear" onclick="calculation=''; console.log('Cleared');">Clear</button>
 
+    </div>
     <script>
         let calculation='';
 

@@ -6,6 +6,11 @@ body{
     color: white;
 }
 
+.Calculator{
+    margin-left: 600px;
+    margin-top: 150PX;
+}
+
 .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,.dot,.equal{
     background-color: rgb(51, 51, 51);
     color: aliceblue;
