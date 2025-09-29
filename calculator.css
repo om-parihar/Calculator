@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+.text{
+    color: white;
+}
+
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,.dot,.equal{
+    background-color: rgb(51, 51, 51);
+    color: aliceblue;
+    border-radius: 60px;
+    border: none;
+    height: 60px;
+    width: 60px;
+    font-size: 26px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.sum,.minus,.multiply,.divide{
+    background-color: orange;
+    color: white;
+    border-radius: 60px;
+    border: none;
+    height: 60px;
+    width: 60px;
+    font-size: 26px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.clear{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border-radius: 60px;
+    border: none;
+    height: 60px;
+    width: 60px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
